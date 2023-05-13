@@ -1,0 +1,18 @@
+.btn-connect{
+    align-items: center;
+    background: linear-gradient(90.06deg,#11a97d -5%,#6610f2 142.89%);
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: Inter,sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    gap: 10px;
+    justify-content: center;
+    line-height: 1.43;
+    min-height: 48px;
+    padding: 10px 30px;
+    transition: all .3s ease;
+}

@@ -1,9 +1,10 @@
-import React from 'react';
-import { VenomConnect } from 'venom-connect';
+'use react'
+import { VenomConnect } from 'venom-connect'
+import './button.css'
 
 type Props = {
     venomConnect: VenomConnect | undefined;
-};
+}
 
 function ConnectWallet({ venomConnect }: Props) {
     const login = async () => {
@@ -14,9 +15,9 @@ function ConnectWallet({ venomConnect }: Props) {
     return (
         <>
             <div>
-                <h1>My Venom Crowdsale</h1>
-                <p>Connect Wallet to continue</p>
-                <a className="btn" onClick={login}>Connect wallet</a>
+                <h1>Latihan Blockchain Venom</h1>
+                <p className="title-text">Connect Wallet to continue</p>
+                <button className="btn-connect" onClick={login}>Connect wallet</button>
             </div>
         </>
     );
